@@ -9,6 +9,7 @@ One major hurdle was working with Power Query and a CSV file. While the function
 Lesson learned📝: Always convert your file to .xlsx before diving into Power Query if you want to maintain connections and edits.
 
 DATA EXPLORATION AND CLEANING
+
 Let's dive into how I transformed the messy dataset into a clean, structured table.
 Step 1: Load the data
 Start by opening an Excel Workbook (.xlsx). On the Ribbon, navigate to "Data → Get & Transform Data".
@@ -28,6 +29,7 @@ Split Column by Delimiter: Used to separate values within a column based on a sp
 Changed Type: Adjusted the data types of columns to suit the requirements (e.g., numbers, text, or dates).
 
 CONCLUSION.
+
 Voila! With just a few simple but powerful steps, our once messy dataset is now clean, structured, and ready for analysis whether it is for visualization, reporting, or any other purpose. I hope this post has taught you a trick or two and shifted your perception of Excel, inspiring you to explore its full potential. It is far more than just a basic tool for calculations, it is a true powerhouse for tackling complex data challenges with ease.
 
 Please feel free to reach out if you face any challenges.
