@@ -11,12 +11,14 @@ Lesson learned📝: Always convert your file to .xlsx before diving into Power 
 DATA EXPLORATION AND CLEANING
 
 Let's dive into how I transformed the messy dataset into a clean, structured table.
+
 Step 1: Load the data
 Start by opening an Excel Workbook (.xlsx). On the Ribbon, navigate to "Data → Get & Transform Data".
 From here, the next step depends on your data source (location of your data). You can choose from options like "From Table/Range, From web source, From Text/CSV" among others.
 For this project, I selected "From Table/Range" since the document was opened directly in Excel. This action launches Power Query, where the real magic happens.
+
 Step 2: Transforming data
-The beauty of Power Query is its flexibility. There is no fixed way to play your data as long as you have a goal. Here are some of the key transformations I used during this project.
+The beauty of Power Query is its flexibility. There is no fixed way to play your data as long as you have a goal. Here are some of the key transformations I used during this project. NOTE: In the attached "Delmich_Data cleaned", you will find the solution hierarchically once you open the connections.
 
 Merging Columns: Combine columns with related or similar values to streamline the dataset. For instance, some participants' first names ended up in the 7th column due to splitting by delimiters, but they were meant to be in the "first_name" column. This function made the correction possible.
 
